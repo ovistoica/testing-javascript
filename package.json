@@ -1,0 +1,22 @@
+{
+  "name": "testing-javascript",
+  "version": "1.0.0",
+  "description": "Public gist of testing principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoica94/testing-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stoica94/testing-javascript/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.3"
+  },
+  "homepage": "https://github.com/stoica94/testing-javascript#readme"
+}
