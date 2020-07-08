@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './auto-scaling-text.module.css'
 
 function getScale(node) {
+  debugger
   if (!node) {
     return 1
   }
