@@ -1,12 +1,11 @@
 import React from 'react'
-import {render} from '@testing-library/react'
 import CalculatorDisplay from '../calculator-display'
+import {render} from 'calculator-test-utils'
 
 test('renders', () => {
   const {container} = render(<CalculatorDisplay value="0" />)
   expect(container).toMatchInlineSnapshot(`
     .emotion-0 {
-      position: relative;
       color: white;
       background: #1c191c;
       line-height: 130px;
@@ -14,11 +13,12 @@ test('renders', () => {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 1;
+      position: relative;
     }
 
     <div>
       <div
-        class="emotion-0"
+        class="emotion-0 emotion-1"
       >
         <div
           class="autoScalingText"

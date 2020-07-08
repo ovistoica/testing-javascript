@@ -24,6 +24,7 @@
     "@babel/preset-react": "^7.7.4",
     "@babel/runtime": "^7.7.4",
     "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@storybook/theming": "^5.3.19",
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.4",
     "babel-loader": "^8.0.6",
@@ -31,21 +32,23 @@
     "eslint": "^6.7.1",
     "eslint-config-cypress": "^0.28.0",
     "eslint-config-kentcdodds": "^14.6.1",
+    "eslint-import-resolver-jest": "^3.0.0",
     "file-loader": "^5.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
     "jest-emotion": "^10.0.32",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
-    "serve": "^11.2.0",
+    "serve": "^11.3.2",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
+    "emotion-theming": "^10.0.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },

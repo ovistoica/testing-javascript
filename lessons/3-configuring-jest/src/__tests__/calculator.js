@@ -1,5 +1,5 @@
 import React from 'react'
-import {render, fireEvent} from '@testing-library/react'
+import {render, fireEvent} from 'calculator-test-utils'
 import Calculator from '../calculator'
 import {findRenderedDOMComponentWithClass} from 'react-dom/test-utils'
 
