@@ -1,8 +1,8 @@
+import React from 'react'
 import {ThemeProvider} from 'emotion-theming'
 import {render as rtlRender} from '@testing-library/react'
-import * as themes from '../src/themes'
 import PropTypes from 'prop-types'
-import React from 'react'
+import * as themes from '../src/themes'
 
 function render(ui, options = {theme: themes.dark}) {
   const Wrapper = ({children}) => {
