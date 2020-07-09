@@ -12,3 +12,5 @@
 
 - To debug, add a `debugger` instruction in the code and access
   `chrome://inspect` with the `npm run test:debug` command running
+
+- To find the full config jest is using: `npx jest --showConfig`
