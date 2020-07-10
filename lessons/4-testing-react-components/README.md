@@ -20,6 +20,8 @@ _Course material for testing React components using react-testing-library_
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Personal Notes](#personal-notes)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 - `react-dom.js` - Render a React component for testing
@@ -55,3 +57,7 @@ _Course material for testing React components using react-testing-library_
 > Note: the setup for this project uses kcd-scripts. Don't worry about that. You
 > can learn about how to configure jest properly in the "Configure Jest for
 > Testing JavaScript Applications" module of TestingJavaScript.com
+
+## Personal Notes
+
+- Use `debug` from the return of `render` from `@testing-library/react`
