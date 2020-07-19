@@ -45,7 +45,10 @@
     ]
   },
   "eslintConfig": {
-    "extends": "./node_modules/kcd-scripts/eslint.js",
+    "extends": [
+      "./node_modules/kcd-scripts/eslint.js",
+      "plugin:react/recommended"
+    ],
     "rules": {
       "import/prefer-default-export": "off",
       "jsx-a11y/label-has-for": "off",
