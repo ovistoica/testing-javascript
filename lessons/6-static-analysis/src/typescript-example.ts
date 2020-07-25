@@ -1,13 +1,13 @@
+function add(a: number, b: number) {
+  return a + b;
+}
+
 interface User {
   name: {
     first: string;
     middle: string;
     last: string;
   };
-}
-
-function add(a: number, b: number) {
-  return a + b;
 }
 
 function getFullName(user: User) {

@@ -8,8 +8,7 @@
   },
   "extends": ["eslint:recommended", "eslint-config-prettier"],
   "rules": {
-    "strict": ["error", "never"],
-    "no-extra-semi": "off"
+    "strict": ["error", "never"]
   },
   "env": {
     "browser": true
@@ -22,9 +21,10 @@
         "project": "./tsconfig.json"
       },
       "plugins": ["@typescript-eslint/eslint-plugin"],
-      "extends:": [
+      "extends": [
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "eslint-config-prettier/@typescript-eslint"
       ]
     }
   ]
